@@ -3,6 +3,8 @@ using FluentEmail.Core;
 using FluentEmail.Smtp;
 using System.Net.Mail;
 using ShapeCrawler;
+using Solnet.Wallet;
+using Solnet.Wallet.Bip39;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -104,9 +106,67 @@ app.MapGet("/presentation/info", () =>
 })
 .WithName("GetPresentationInfo");
 
+// SolnetUnified endpoint - Solana wallet operations
+app.MapGet("/solana/wallet/generate", () =>
+{
+    try
+    {
+        // Generate a new Solana wallet
+        var mnemonic = new Mnemonic(WordList.English, WordCount.Twelve);
+        var wallet = new Wallet(mnemonic);
+        
+        return Results.Ok(new
+        {
+            Success = true,
+            Message = "Solana wallet generated successfully using Solnet!",
+            PublicKey = wallet.Account.PublicKey.Key,
+            MnemonicWords = mnemonic.ToString(),
+            Warning = "This is a demo wallet. Never use these keys in production!"
+        });
+    }
+    catch (Exception ex)
+    {
+        return Results.Ok(new
+        {
+            Success = false,
+            Message = $"Error generating wallet: {ex.Message}"
+        });
+    }
+})
+.WithName("GenerateSolanaWallet");
+
+app.MapPost("/solana/wallet/restore", (RestoreWalletRequest request) =>
+{
+    try
+    {
+        // Restore a wallet from mnemonic phrase
+        var mnemonic = new Mnemonic(request.MnemonicPhrase);
+        var wallet = new Wallet(mnemonic);
+        
+        return Results.Ok(new
+        {
+            Success = true,
+            Message = "Solana wallet restored successfully using Solnet!",
+            PublicKey = wallet.Account.PublicKey.Key,
+            Warning = "This is a demo. Never share your mnemonic phrase!"
+        });
+    }
+    catch (Exception ex)
+    {
+        return Results.Ok(new
+        {
+            Success = false,
+            Message = $"Error restoring wallet: {ex.Message}"
+        });
+    }
+})
+.WithName("RestoreSolanaWallet");
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC * 9 / 5.0);
 }
+
+record RestoreWalletRequest(string MnemonicPhrase);
