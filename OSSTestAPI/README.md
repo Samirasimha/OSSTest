@@ -39,22 +39,22 @@ dotnet build
 dotnet run
 ```
 
-The application will start at `http://localhost:5000` by default.
+The application will start at `http://localhost:5220` by default.
 
 ## Testing with curl
 
 ```bash
 # Test cache endpoint
-curl http://localhost:5000/cache/test
+curl http://localhost:5220/cache/test
 
 # Test weather forecast
-curl http://localhost:5000/weatherforecast
+curl http://localhost:5220/weatherforecast
 
 # Test email endpoint
-curl -X POST http://localhost:5000/email/send
+curl -X POST http://localhost:5220/email/send
 
 # Test presentation info
-curl http://localhost:5000/presentation/info
+curl http://localhost:5220/presentation/info
 ```
 
 ## Purpose
