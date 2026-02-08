@@ -126,11 +126,14 @@ app.MapGet("/solana/wallet/generate", () =>
     }
     catch (Exception ex)
     {
-        return Results.Ok(new
-        {
-            Success = false,
-            Message = $"Error generating wallet: {ex.Message}"
-        });
+        // Log the exception server-side (would be done with ILogger in production)
+        Console.Error.WriteLine($"Error generating wallet: {ex}");
+        
+        return Results.Problem(
+            detail: "An error occurred while generating the wallet. Please try again.",
+            statusCode: 500,
+            title: "Wallet Generation Failed"
+        );
     }
 })
 .WithName("GenerateSolanaWallet");
@@ -151,13 +154,27 @@ app.MapPost("/solana/wallet/restore", (RestoreWalletRequest request) =>
             Warning = "This is a demo. Never share your mnemonic phrase!"
         });
     }
-    catch (Exception ex)
+    catch (ArgumentException ex)
     {
-        return Results.Ok(new
+        // Invalid mnemonic phrase
+        Console.Error.WriteLine($"Invalid mnemonic phrase: {ex.Message}");
+        
+        return Results.BadRequest(new
         {
             Success = false,
-            Message = $"Error restoring wallet: {ex.Message}"
+            Message = "Invalid mnemonic phrase. Please provide a valid 12 or 24 word mnemonic."
         });
+    }
+    catch (Exception ex)
+    {
+        // Other errors
+        Console.Error.WriteLine($"Error restoring wallet: {ex}");
+        
+        return Results.Problem(
+            detail: "An error occurred while restoring the wallet. Please try again.",
+            statusCode: 500,
+            title: "Wallet Restoration Failed"
+        );
     }
 })
 .WithName("RestoreSolanaWallet");
