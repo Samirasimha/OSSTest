@@ -120,7 +120,8 @@ app.MapGet("/presentation/download", () =>
     pres.Save(stream);
     stream.Position = 0;
     
-    // Return the file for download - Results.File will handle stream disposal
+    // Return the file for download
+    // Note: ASP.NET Core will automatically dispose the stream after sending the response
     return Results.File(stream, "application/vnd.openxmlformats-officedocument.presentationml.presentation", "HelloWorld.pptx", enableRangeProcessing: true);
 })
 .WithName("DownloadPresentation");
