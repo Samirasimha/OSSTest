@@ -102,7 +102,7 @@ app.MapGet("/presentation/info", () =>
 app.MapGet("/presentation/download", () =>
 {
     // Create a new presentation with a blank slide
-    var pres = new Presentation(p => p.Slide());
+    using var pres = new Presentation(p => p.Slide());
     
     // Get the first slide
     var slide = pres.Slides[0];
@@ -120,8 +120,8 @@ app.MapGet("/presentation/download", () =>
     pres.Save(stream);
     stream.Position = 0;
     
-    // Return the file for download
-    return Results.File(stream, "application/vnd.openxmlformats-officedocument.presentationml.presentation", "HelloWorld.pptx");
+    // Return the file for download - Results.File will handle stream disposal
+    return Results.File(stream, "application/vnd.openxmlformats-officedocument.presentationml.presentation", "HelloWorld.pptx", enableRangeProcessing: true);
 })
 .WithName("DownloadPresentation");
 
