@@ -104,6 +104,29 @@ app.MapGet("/presentation/info", () =>
 })
 .WithName("GetPresentationInfo");
 
+// Newtonsoft.Json demo endpoint
+app.MapPost("/json/roundtrip", (object payload) =>
+{
+    // Serialize using Newtonsoft.Json
+    var json = Newtonsoft.Json.JsonConvert.SerializeObject(
+        payload,
+        Newtonsoft.Json.Formatting.Indented
+    );
+
+    // Deserialize back into a dynamic object
+    var deserialized = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(json);
+
+    return new
+    {
+        OriginalPayload = payload,
+        SerializedJson = json,
+        ParsedBack = deserialized,
+        Message = "This endpoint is actively using Newtonsoft.Json"
+    };
+})
+.WithName("JsonRoundtrip");
+
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
