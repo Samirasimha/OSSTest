@@ -11,6 +11,7 @@
     <PackageReference Include="FluentEmail.Smtp" Version="3.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.12" />
     <PackageReference Include="ShapeCrawler" Version="0.78.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
     <PackageReference Include="ZiggyCreatures.FusionCache" Version="2.5.0" />
   </ItemGroup>
 
