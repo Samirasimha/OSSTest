@@ -98,6 +98,33 @@ app.MapGet("/presentation/info", () =>
 })
 .WithName("GetPresentationInfo");
 
+// ShapeCrawler endpoint to download a "Hello World" presentation
+app.MapGet("/presentation/download", () =>
+{
+    // Create a new presentation with a blank slide
+    var pres = new Presentation(p => p.Slide());
+    
+    // Get the first slide
+    var slide = pres.Slides[0];
+    
+    // Add a shape with "Hello World" text
+    slide.Shapes.AddShape(x: 100, y: 100, width: 400, height: 100);
+    var addedShape = slide.Shapes.Last();
+    if (addedShape.TextBox != null)
+    {
+        addedShape.TextBox.SetText("Hello World");
+    }
+    
+    // Save the presentation to a memory stream
+    var stream = new MemoryStream();
+    pres.Save(stream);
+    stream.Position = 0;
+    
+    // Return the file for download
+    return Results.File(stream, "application/vnd.openxmlformats-officedocument.presentationml.presentation", "HelloWorld.pptx");
+})
+.WithName("DownloadPresentation");
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
