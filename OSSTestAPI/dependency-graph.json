@@ -1391,925 +1391,925 @@
       "version": "3.4.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667519Z"
+      "cachedAt": "2026-02-10T07:23:16.901802Z"
     },
     "DocumentFormat.OpenXml.Framework@3.4.1": {
       "packageName": "DocumentFormat.OpenXml.Framework",
       "version": "3.4.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667543Z"
+      "cachedAt": "2026-02-10T07:23:16.901828Z"
     },
     "DocumentFormat.OpenXml.Linq@3.4.1": {
       "packageName": "DocumentFormat.OpenXml.Linq",
       "version": "3.4.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667543Z"
+      "cachedAt": "2026-02-10T07:23:16.901828Z"
     },
     "FluentEmail.Core@3.0.2": {
       "packageName": "FluentEmail.Core",
       "version": "3.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667545Z"
+      "cachedAt": "2026-02-10T07:23:16.90183Z"
     },
     "FluentEmail.Smtp@3.0.2": {
       "packageName": "FluentEmail.Smtp",
       "version": "3.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667545Z"
+      "cachedAt": "2026-02-10T07:23:16.90183Z"
     },
     "Magick.NET-Q16-AnyCPU@14.10.2": {
       "packageName": "Magick.NET-Q16-AnyCPU",
       "version": "14.10.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667545Z"
+      "cachedAt": "2026-02-10T07:23:16.90183Z"
     },
     "Magick.NET.Core@14.10.2": {
       "packageName": "Magick.NET.Core",
       "version": "14.10.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667546Z"
+      "cachedAt": "2026-02-10T07:23:16.90183Z"
     },
     "Microsoft.AspNetCore.OpenApi@9.0.12": {
       "packageName": "Microsoft.AspNetCore.OpenApi",
       "version": "9.0.12",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667546Z"
+      "cachedAt": "2026-02-10T07:23:16.901831Z"
     },
     "Microsoft.CSharp@4.0.1": {
       "packageName": "Microsoft.CSharp",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667546Z"
+      "cachedAt": "2026-02-10T07:23:16.901831Z"
     },
     "Microsoft.Extensions.ApiDescription.Server@6.0.5": {
       "packageName": "Microsoft.Extensions.ApiDescription.Server",
       "version": "6.0.5",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667547Z"
+      "cachedAt": "2026-02-10T07:23:16.901832Z"
     },
     "Microsoft.Extensions.Caching.Abstractions@10.0.1": {
       "packageName": "Microsoft.Extensions.Caching.Abstractions",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667549Z"
+      "cachedAt": "2026-02-10T07:23:16.901832Z"
     },
     "Microsoft.Extensions.Caching.Memory@10.0.1": {
       "packageName": "Microsoft.Extensions.Caching.Memory",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66755Z"
+      "cachedAt": "2026-02-10T07:23:16.901833Z"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions@10.0.1": {
       "packageName": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66755Z"
+      "cachedAt": "2026-02-10T07:23:16.901833Z"
     },
     "Microsoft.Extensions.Logging.Abstractions@10.0.1": {
       "packageName": "Microsoft.Extensions.Logging.Abstractions",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66755Z"
+      "cachedAt": "2026-02-10T07:23:16.901833Z"
     },
     "Microsoft.Extensions.Options@10.0.1": {
       "packageName": "Microsoft.Extensions.Options",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66755Z"
+      "cachedAt": "2026-02-10T07:23:16.901833Z"
     },
     "Microsoft.Extensions.Primitives@10.0.1": {
       "packageName": "Microsoft.Extensions.Primitives",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667551Z"
+      "cachedAt": "2026-02-10T07:23:16.901834Z"
     },
     "Microsoft.NETCore.Platforms@1.0.1": {
       "packageName": "Microsoft.NETCore.Platforms",
       "version": "1.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667551Z"
+      "cachedAt": "2026-02-10T07:23:16.901834Z"
     },
     "Microsoft.NETCore.Targets@1.0.1": {
       "packageName": "Microsoft.NETCore.Targets",
       "version": "1.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667551Z"
+      "cachedAt": "2026-02-10T07:23:16.901834Z"
     },
     "Microsoft.OpenApi@1.6.22": {
       "packageName": "Microsoft.OpenApi",
       "version": "1.6.22",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667552Z"
+      "cachedAt": "2026-02-10T07:23:16.901835Z"
     },
     "Newtonsoft.Json@9.0.1": {
       "packageName": "Newtonsoft.Json",
       "version": "9.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667552Z"
+      "cachedAt": "2026-02-10T07:23:16.901835Z"
     },
     "ShapeCrawler@0.78.2": {
       "packageName": "ShapeCrawler",
       "version": "0.78.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667552Z"
+      "cachedAt": "2026-02-10T07:23:16.901835Z"
     },
     "SkiaSharp@3.119.1": {
       "packageName": "SkiaSharp",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667552Z"
+      "cachedAt": "2026-02-10T07:23:16.901835Z"
     },
     "SkiaSharp.NativeAssets.Linux@3.119.1": {
       "packageName": "SkiaSharp.NativeAssets.Linux",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667553Z"
+      "cachedAt": "2026-02-10T07:23:16.901836Z"
     },
     "SkiaSharp.NativeAssets.macOS@3.119.1": {
       "packageName": "SkiaSharp.NativeAssets.macOS",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667553Z"
+      "cachedAt": "2026-02-10T07:23:16.901836Z"
     },
     "SkiaSharp.NativeAssets.Win32@3.119.1": {
       "packageName": "SkiaSharp.NativeAssets.Win32",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667553Z"
+      "cachedAt": "2026-02-10T07:23:16.901836Z"
     },
     "Swashbuckle.AspNetCore@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667553Z"
+      "cachedAt": "2026-02-10T07:23:16.901838Z"
     },
     "Swashbuckle.AspNetCore.Swagger@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore.Swagger",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667554Z"
+      "cachedAt": "2026-02-10T07:23:16.901839Z"
     },
     "Swashbuckle.AspNetCore.SwaggerGen@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore.SwaggerGen",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667554Z"
+      "cachedAt": "2026-02-10T07:23:16.901839Z"
     },
     "Swashbuckle.AspNetCore.SwaggerUI@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore.SwaggerUI",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667554Z"
+      "cachedAt": "2026-02-10T07:23:16.901839Z"
     },
     "System.Collections@4.0.11": {
       "packageName": "System.Collections",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667554Z"
+      "cachedAt": "2026-02-10T07:23:16.901839Z"
     },
     "System.Collections.Immutable@10.0.2": {
       "packageName": "System.Collections.Immutable",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667555Z"
+      "cachedAt": "2026-02-10T07:23:16.90184Z"
     },
     "System.Diagnostics.Debug@4.0.11": {
       "packageName": "System.Diagnostics.Debug",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667555Z"
+      "cachedAt": "2026-02-10T07:23:16.90184Z"
     },
     "System.Diagnostics.DiagnosticSource@10.0.1": {
       "packageName": "System.Diagnostics.DiagnosticSource",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667555Z"
+      "cachedAt": "2026-02-10T07:23:16.90184Z"
     },
     "System.Diagnostics.Tools@4.0.1": {
       "packageName": "System.Diagnostics.Tools",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667555Z"
+      "cachedAt": "2026-02-10T07:23:16.90184Z"
     },
     "System.Dynamic.Runtime@4.0.11": {
       "packageName": "System.Dynamic.Runtime",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667556Z"
+      "cachedAt": "2026-02-10T07:23:16.901841Z"
     },
     "System.Formats.Nrbf@10.0.2": {
       "packageName": "System.Formats.Nrbf",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667556Z"
+      "cachedAt": "2026-02-10T07:23:16.901841Z"
     },
     "System.Globalization@4.0.11": {
       "packageName": "System.Globalization",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667556Z"
+      "cachedAt": "2026-02-10T07:23:16.901841Z"
     },
     "System.IO@4.1.0": {
       "packageName": "System.IO",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667558Z"
+      "cachedAt": "2026-02-10T07:23:16.901842Z"
     },
     "System.IO.FileSystem@4.0.1": {
       "packageName": "System.IO.FileSystem",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667558Z"
+      "cachedAt": "2026-02-10T07:23:16.901842Z"
     },
     "System.IO.FileSystem.Primitives@4.0.1": {
       "packageName": "System.IO.FileSystem.Primitives",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667559Z"
+      "cachedAt": "2026-02-10T07:23:16.901843Z"
     },
     "System.IO.Packaging@8.0.1": {
       "packageName": "System.IO.Packaging",
       "version": "8.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667559Z"
+      "cachedAt": "2026-02-10T07:23:16.901843Z"
     },
     "System.Linq@4.1.0": {
       "packageName": "System.Linq",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667559Z"
+      "cachedAt": "2026-02-10T07:23:16.901843Z"
     },
     "System.Linq.Expressions@4.1.0": {
       "packageName": "System.Linq.Expressions",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667559Z"
+      "cachedAt": "2026-02-10T07:23:16.901843Z"
     },
     "System.ObjectModel@4.0.12": {
       "packageName": "System.ObjectModel",
       "version": "4.0.12",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667559Z"
+      "cachedAt": "2026-02-10T07:23:16.901844Z"
     },
     "System.Reflection@4.1.0": {
       "packageName": "System.Reflection",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66756Z"
+      "cachedAt": "2026-02-10T07:23:16.901844Z"
     },
     "System.Reflection.Emit@4.0.1": {
       "packageName": "System.Reflection.Emit",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66756Z"
+      "cachedAt": "2026-02-10T07:23:16.901844Z"
     },
     "System.Reflection.Emit.ILGeneration@4.0.1": {
       "packageName": "System.Reflection.Emit.ILGeneration",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66756Z"
+      "cachedAt": "2026-02-10T07:23:16.901844Z"
     },
     "System.Reflection.Emit.Lightweight@4.0.1": {
       "packageName": "System.Reflection.Emit.Lightweight",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66756Z"
+      "cachedAt": "2026-02-10T07:23:16.901845Z"
     },
     "System.Reflection.Extensions@4.0.1": {
       "packageName": "System.Reflection.Extensions",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667561Z"
+      "cachedAt": "2026-02-10T07:23:16.901845Z"
     },
     "System.Reflection.Metadata@10.0.2": {
       "packageName": "System.Reflection.Metadata",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667561Z"
+      "cachedAt": "2026-02-10T07:23:16.901845Z"
     },
     "System.Reflection.Primitives@4.0.1": {
       "packageName": "System.Reflection.Primitives",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667561Z"
+      "cachedAt": "2026-02-10T07:23:16.901845Z"
     },
     "System.Reflection.TypeExtensions@4.1.0": {
       "packageName": "System.Reflection.TypeExtensions",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667562Z"
+      "cachedAt": "2026-02-10T07:23:16.901846Z"
     },
     "System.Resources.Extensions@10.0.2": {
       "packageName": "System.Resources.Extensions",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667562Z"
+      "cachedAt": "2026-02-10T07:23:16.901846Z"
     },
     "System.Resources.ResourceManager@4.0.1": {
       "packageName": "System.Resources.ResourceManager",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667562Z"
+      "cachedAt": "2026-02-10T07:23:16.901846Z"
     },
     "System.Runtime@4.1.0": {
       "packageName": "System.Runtime",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667562Z"
+      "cachedAt": "2026-02-10T07:23:16.901846Z"
     },
     "System.Runtime.Extensions@4.1.0": {
       "packageName": "System.Runtime.Extensions",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667562Z"
+      "cachedAt": "2026-02-10T07:23:16.901846Z"
     },
     "System.Runtime.Handles@4.0.1": {
       "packageName": "System.Runtime.Handles",
       "version": "4.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667563Z"
+      "cachedAt": "2026-02-10T07:23:16.901847Z"
     },
     "System.Runtime.InteropServices@4.1.0": {
       "packageName": "System.Runtime.InteropServices",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667563Z"
+      "cachedAt": "2026-02-10T07:23:16.901847Z"
     },
     "System.Runtime.Serialization.Primitives@4.1.1": {
       "packageName": "System.Runtime.Serialization.Primitives",
       "version": "4.1.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667563Z"
+      "cachedAt": "2026-02-10T07:23:16.901847Z"
     },
     "System.Text.Encoding@4.0.11": {
       "packageName": "System.Text.Encoding",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667563Z"
+      "cachedAt": "2026-02-10T07:23:16.901848Z"
     },
     "System.Text.Encoding.Extensions@4.0.11": {
       "packageName": "System.Text.Encoding.Extensions",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667563Z"
+      "cachedAt": "2026-02-10T07:23:16.901848Z"
     },
     "System.Text.RegularExpressions@4.1.0": {
       "packageName": "System.Text.RegularExpressions",
       "version": "4.1.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667564Z"
+      "cachedAt": "2026-02-10T07:23:16.901848Z"
     },
     "System.Threading@4.0.11": {
       "packageName": "System.Threading",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667564Z"
+      "cachedAt": "2026-02-10T07:23:16.901848Z"
     },
     "System.Threading.Tasks@4.0.11": {
       "packageName": "System.Threading.Tasks",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667564Z"
+      "cachedAt": "2026-02-10T07:23:16.901849Z"
     },
     "System.Threading.Tasks.Extensions@4.0.0": {
       "packageName": "System.Threading.Tasks.Extensions",
       "version": "4.0.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667564Z"
+      "cachedAt": "2026-02-10T07:23:16.901849Z"
     },
     "System.Xml.ReaderWriter@4.0.11": {
       "packageName": "System.Xml.ReaderWriter",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667565Z"
+      "cachedAt": "2026-02-10T07:23:16.901849Z"
     },
     "System.Xml.XDocument@4.0.11": {
       "packageName": "System.Xml.XDocument",
       "version": "4.0.11",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667565Z"
+      "cachedAt": "2026-02-10T07:23:16.901849Z"
     },
     "ZiggyCreatures.FusionCache@2.5.0": {
       "packageName": "ZiggyCreatures.FusionCache",
       "version": "2.5.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667565Z"
+      "cachedAt": "2026-02-10T07:23:16.90185Z"
     },
     "DocumentFormat.OpenXml.Framework@[3.4.1, )": {
       "packageName": "DocumentFormat.OpenXml.Framework",
       "version": "[3.4.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667949Z"
+      "cachedAt": "2026-02-10T07:23:16.902281Z"
     },
     "System.IO.Packaging@[8.0.1, )": {
       "packageName": "System.IO.Packaging",
       "version": "[8.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667967Z"
+      "cachedAt": "2026-02-10T07:23:16.902306Z"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions@[5.0.0, )": {
       "packageName": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "version": "[5.0.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66797Z"
+      "cachedAt": "2026-02-10T07:23:16.902309Z"
     },
     "FluentEmail.Core@[3.0.2, )": {
       "packageName": "FluentEmail.Core",
       "version": "[3.0.2, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667971Z"
+      "cachedAt": "2026-02-10T07:23:16.90231Z"
     },
     "Magick.NET.Core@[14.10.2, )": {
       "packageName": "Magick.NET.Core",
       "version": "[14.10.2, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667972Z"
+      "cachedAt": "2026-02-10T07:23:16.902311Z"
     },
     "Microsoft.OpenApi@[1.6.17, )": {
       "packageName": "Microsoft.OpenApi",
       "version": "[1.6.17, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66799Z"
+      "cachedAt": "2026-02-10T07:23:16.90233Z"
     },
     "System.Collections@[4.0.11, )": {
       "packageName": "System.Collections",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667991Z"
+      "cachedAt": "2026-02-10T07:23:16.902331Z"
     },
     "System.Diagnostics.Debug@[4.0.11, )": {
       "packageName": "System.Diagnostics.Debug",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667992Z"
+      "cachedAt": "2026-02-10T07:23:16.902332Z"
     },
     "System.Dynamic.Runtime@[4.0.11, )": {
       "packageName": "System.Dynamic.Runtime",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667992Z"
+      "cachedAt": "2026-02-10T07:23:16.902332Z"
     },
     "System.Globalization@[4.0.11, )": {
       "packageName": "System.Globalization",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667993Z"
+      "cachedAt": "2026-02-10T07:23:16.902333Z"
     },
     "System.Linq@[4.1.0, )": {
       "packageName": "System.Linq",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667994Z"
+      "cachedAt": "2026-02-10T07:23:16.902333Z"
     },
     "System.Linq.Expressions@[4.1.0, )": {
       "packageName": "System.Linq.Expressions",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.667994Z"
+      "cachedAt": "2026-02-10T07:23:16.902334Z"
     },
     "System.ObjectModel@[4.0.12, )": {
       "packageName": "System.ObjectModel",
       "version": "[4.0.12, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668001Z"
+      "cachedAt": "2026-02-10T07:23:16.902336Z"
     },
     "System.Reflection@[4.1.0, )": {
       "packageName": "System.Reflection",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668002Z"
+      "cachedAt": "2026-02-10T07:23:16.902337Z"
     },
     "System.Reflection.Extensions@[4.0.1, )": {
       "packageName": "System.Reflection.Extensions",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668002Z"
+      "cachedAt": "2026-02-10T07:23:16.902337Z"
     },
     "System.Reflection.Primitives@[4.0.1, )": {
       "packageName": "System.Reflection.Primitives",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668003Z"
+      "cachedAt": "2026-02-10T07:23:16.902338Z"
     },
     "System.Reflection.TypeExtensions@[4.1.0, )": {
       "packageName": "System.Reflection.TypeExtensions",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668003Z"
+      "cachedAt": "2026-02-10T07:23:16.902338Z"
     },
     "System.Resources.ResourceManager@[4.0.1, )": {
       "packageName": "System.Resources.ResourceManager",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668004Z"
+      "cachedAt": "2026-02-10T07:23:16.902339Z"
     },
     "System.Runtime@[4.1.0, )": {
       "packageName": "System.Runtime",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668005Z"
+      "cachedAt": "2026-02-10T07:23:16.902339Z"
     },
     "System.Runtime.Extensions@[4.1.0, )": {
       "packageName": "System.Runtime.Extensions",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668005Z"
+      "cachedAt": "2026-02-10T07:23:16.90234Z"
     },
     "System.Runtime.InteropServices@[4.1.0, )": {
       "packageName": "System.Runtime.InteropServices",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668006Z"
+      "cachedAt": "2026-02-10T07:23:16.90234Z"
     },
     "System.Threading@[4.0.11, )": {
       "packageName": "System.Threading",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668008Z"
+      "cachedAt": "2026-02-10T07:23:16.902342Z"
     },
     "Microsoft.Extensions.Primitives@[10.0.1, )": {
       "packageName": "Microsoft.Extensions.Primitives",
       "version": "[10.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668011Z"
+      "cachedAt": "2026-02-10T07:23:16.902346Z"
     },
     "Microsoft.Extensions.Caching.Abstractions@[10.0.1, )": {
       "packageName": "Microsoft.Extensions.Caching.Abstractions",
       "version": "[10.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668013Z"
+      "cachedAt": "2026-02-10T07:23:16.902347Z"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions@[10.0.1, )": {
       "packageName": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "version": "[10.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668015Z"
+      "cachedAt": "2026-02-10T07:23:16.902348Z"
     },
     "Microsoft.Extensions.Logging.Abstractions@[10.0.1, )": {
       "packageName": "Microsoft.Extensions.Logging.Abstractions",
       "version": "[10.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668015Z"
+      "cachedAt": "2026-02-10T07:23:16.902349Z"
     },
     "Microsoft.Extensions.Options@[10.0.1, )": {
       "packageName": "Microsoft.Extensions.Options",
       "version": "[10.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668016Z"
+      "cachedAt": "2026-02-10T07:23:16.902349Z"
     },
     "System.Diagnostics.DiagnosticSource@[10.0.1, )": {
       "packageName": "System.Diagnostics.DiagnosticSource",
       "version": "[10.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668018Z"
+      "cachedAt": "2026-02-10T07:23:16.902352Z"
     },
     "Microsoft.CSharp@[4.0.1, )": {
       "packageName": "Microsoft.CSharp",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668022Z"
+      "cachedAt": "2026-02-10T07:23:16.902355Z"
     },
     "System.IO@[4.1.0, )": {
       "packageName": "System.IO",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668024Z"
+      "cachedAt": "2026-02-10T07:23:16.902357Z"
     },
     "System.Runtime.Serialization.Primitives@[4.1.1, )": {
       "packageName": "System.Runtime.Serialization.Primitives",
       "version": "[4.1.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668028Z"
+      "cachedAt": "2026-02-10T07:23:16.902361Z"
     },
     "System.Text.Encoding@[4.0.11, )": {
       "packageName": "System.Text.Encoding",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668028Z"
+      "cachedAt": "2026-02-10T07:23:16.902362Z"
     },
     "System.Text.Encoding.Extensions@[4.0.11, )": {
       "packageName": "System.Text.Encoding.Extensions",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668029Z"
+      "cachedAt": "2026-02-10T07:23:16.902363Z"
     },
     "System.Text.RegularExpressions@[4.1.0, )": {
       "packageName": "System.Text.RegularExpressions",
       "version": "[4.1.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668029Z"
+      "cachedAt": "2026-02-10T07:23:16.902363Z"
     },
     "System.Threading.Tasks@[4.0.11, )": {
       "packageName": "System.Threading.Tasks",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66803Z"
+      "cachedAt": "2026-02-10T07:23:16.902364Z"
     },
     "System.Xml.ReaderWriter@[4.0.11, )": {
       "packageName": "System.Xml.ReaderWriter",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668031Z"
+      "cachedAt": "2026-02-10T07:23:16.902364Z"
     },
     "System.Xml.XDocument@[4.0.11, )": {
       "packageName": "System.Xml.XDocument",
       "version": "[4.0.11, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668031Z"
+      "cachedAt": "2026-02-10T07:23:16.902365Z"
     },
     "DocumentFormat.OpenXml@[3.4.1, )": {
       "packageName": "DocumentFormat.OpenXml",
       "version": "[3.4.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668032Z"
+      "cachedAt": "2026-02-10T07:23:16.902366Z"
     },
     "DocumentFormat.OpenXml.Linq@[3.4.1, )": {
       "packageName": "DocumentFormat.OpenXml.Linq",
       "version": "[3.4.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668034Z"
+      "cachedAt": "2026-02-10T07:23:16.902367Z"
     },
     "Magick.NET-Q16-AnyCPU@[14.10.2, )": {
       "packageName": "Magick.NET-Q16-AnyCPU",
       "version": "[14.10.2, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668035Z"
+      "cachedAt": "2026-02-10T07:23:16.902367Z"
     },
     "SkiaSharp@[3.119.1, )": {
       "packageName": "SkiaSharp",
       "version": "[3.119.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668035Z"
+      "cachedAt": "2026-02-10T07:23:16.902368Z"
     },
     "SkiaSharp.NativeAssets.Linux@[3.119.1, )": {
       "packageName": "SkiaSharp.NativeAssets.Linux",
       "version": "[3.119.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668035Z"
+      "cachedAt": "2026-02-10T07:23:16.902368Z"
     },
     "System.Resources.Extensions@[10.0.2, )": {
       "packageName": "System.Resources.Extensions",
       "version": "[10.0.2, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668036Z"
+      "cachedAt": "2026-02-10T07:23:16.902369Z"
     },
     "SkiaSharp.NativeAssets.Win32@[3.119.1, )": {
       "packageName": "SkiaSharp.NativeAssets.Win32",
       "version": "[3.119.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668037Z"
+      "cachedAt": "2026-02-10T07:23:16.90237Z"
     },
     "SkiaSharp.NativeAssets.macOS@[3.119.1, )": {
       "packageName": "SkiaSharp.NativeAssets.macOS",
       "version": "[3.119.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668037Z"
+      "cachedAt": "2026-02-10T07:23:16.90237Z"
     },
     "Microsoft.Extensions.ApiDescription.Server@[6.0.5, )": {
       "packageName": "Microsoft.Extensions.ApiDescription.Server",
       "version": "[6.0.5, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668039Z"
+      "cachedAt": "2026-02-10T07:23:16.902372Z"
     },
     "Swashbuckle.AspNetCore.Swagger@[7.2.0, )": {
       "packageName": "Swashbuckle.AspNetCore.Swagger",
       "version": "[7.2.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66804Z"
+      "cachedAt": "2026-02-10T07:23:16.902373Z"
     },
     "Swashbuckle.AspNetCore.SwaggerGen@[7.2.0, )": {
       "packageName": "Swashbuckle.AspNetCore.SwaggerGen",
       "version": "[7.2.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66804Z"
+      "cachedAt": "2026-02-10T07:23:16.902373Z"
     },
     "Swashbuckle.AspNetCore.SwaggerUI@[7.2.0, )": {
       "packageName": "Swashbuckle.AspNetCore.SwaggerUI",
       "version": "[7.2.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668041Z"
+      "cachedAt": "2026-02-10T07:23:16.902374Z"
     },
     "Microsoft.OpenApi@[1.6.22, )": {
       "packageName": "Microsoft.OpenApi",
       "version": "[1.6.22, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668042Z"
+      "cachedAt": "2026-02-10T07:23:16.902375Z"
     },
     "Microsoft.NETCore.Platforms@[1.0.1, )": {
       "packageName": "Microsoft.NETCore.Platforms",
       "version": "[1.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668044Z"
+      "cachedAt": "2026-02-10T07:23:16.902378Z"
     },
     "Microsoft.NETCore.Targets@[1.0.1, )": {
       "packageName": "Microsoft.NETCore.Targets",
       "version": "[1.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668044Z"
+      "cachedAt": "2026-02-10T07:23:16.902378Z"
     },
     "System.Reflection.Emit@[4.0.1, )": {
       "packageName": "System.Reflection.Emit",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668052Z"
+      "cachedAt": "2026-02-10T07:23:16.902385Z"
     },
     "System.Reflection.Emit.ILGeneration@[4.0.1, )": {
       "packageName": "System.Reflection.Emit.ILGeneration",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668054Z"
+      "cachedAt": "2026-02-10T07:23:16.902386Z"
     },
     "System.Reflection.Metadata@[10.0.2, )": {
       "packageName": "System.Reflection.Metadata",
       "version": "[10.0.2, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668057Z"
+      "cachedAt": "2026-02-10T07:23:16.902389Z"
     },
     "System.IO.FileSystem.Primitives@[4.0.1, )": {
       "packageName": "System.IO.FileSystem.Primitives",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668063Z"
+      "cachedAt": "2026-02-10T07:23:16.902395Z"
     },
     "System.Runtime.Handles@[4.0.1, )": {
       "packageName": "System.Runtime.Handles",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668063Z"
+      "cachedAt": "2026-02-10T07:23:16.902396Z"
     },
     "System.Reflection.Emit.Lightweight@[4.0.1, )": {
       "packageName": "System.Reflection.Emit.Lightweight",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668073Z"
+      "cachedAt": "2026-02-10T07:23:16.902404Z"
     },
     "System.Collections.Immutable@[10.0.2, )": {
       "packageName": "System.Collections.Immutable",
       "version": "[10.0.2, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668089Z"
+      "cachedAt": "2026-02-10T07:23:16.90242Z"
     },
     "System.Formats.Nrbf@[10.0.2, )": {
       "packageName": "System.Formats.Nrbf",
       "version": "[10.0.2, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668093Z"
+      "cachedAt": "2026-02-10T07:23:16.902424Z"
     },
     "System.IO.FileSystem@[4.0.1, )": {
       "packageName": "System.IO.FileSystem",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668115Z"
+      "cachedAt": "2026-02-10T07:23:16.902445Z"
     },
     "System.Threading.Tasks.Extensions@[4.0.0, )": {
       "packageName": "System.Threading.Tasks.Extensions",
       "version": "[4.0.0, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668119Z"
+      "cachedAt": "2026-02-10T07:23:16.902448Z"
     },
     "System.Diagnostics.Tools@[4.0.1, )": {
       "packageName": "System.Diagnostics.Tools",
       "version": "[4.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.66812Z"
+      "cachedAt": "2026-02-10T07:23:16.90245Z"
     },
     "Microsoft.Extensions.Caching.Memory@[10.0.1, )": {
       "packageName": "Microsoft.Extensions.Caching.Memory",
       "version": "[10.0.1, )",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-10T07:17:08.668126Z"
+      "cachedAt": "2026-02-10T07:23:16.902454Z"
     }
   },
-  "generatedAt": "2026-02-10T07:17:08.6672680Z"
+  "generatedAt": "2026-02-10T07:23:16.9015160Z"
 }
