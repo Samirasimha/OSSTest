@@ -53,6 +53,13 @@
       "version": "9.0.12",
       "directDependents": []
     },
+    "Microsoft.CSharp@4.0.1": {
+      "packageName": "Microsoft.CSharp",
+      "version": "4.0.1",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server@6.0.5": {
       "packageName": "Microsoft.Extensions.ApiDescription.Server",
       "version": "6.0.5",
@@ -107,6 +114,52 @@
         "Microsoft.Extensions.Options@10.0.1"
       ]
     },
+    "Microsoft.NETCore.Platforms@1.0.1": {
+      "packageName": "Microsoft.NETCore.Platforms",
+      "version": "1.0.1",
+      "directDependents": [
+        "System.Collections@4.0.11",
+        "System.Diagnostics.Debug@4.0.11",
+        "System.Diagnostics.Tools@4.0.1",
+        "System.Globalization@4.0.11",
+        "System.IO@4.1.0",
+        "System.IO.FileSystem@4.0.1",
+        "System.Reflection@4.1.0",
+        "System.Reflection.Extensions@4.0.1",
+        "System.Reflection.Primitives@4.0.1",
+        "System.Resources.ResourceManager@4.0.1",
+        "System.Runtime@4.1.0",
+        "System.Runtime.Extensions@4.1.0",
+        "System.Runtime.Handles@4.0.1",
+        "System.Runtime.InteropServices@4.1.0",
+        "System.Text.Encoding@4.0.11",
+        "System.Text.Encoding.Extensions@4.0.11",
+        "System.Threading.Tasks@4.0.11"
+      ]
+    },
+    "Microsoft.NETCore.Targets@1.0.1": {
+      "packageName": "Microsoft.NETCore.Targets",
+      "version": "1.0.1",
+      "directDependents": [
+        "System.Collections@4.0.11",
+        "System.Diagnostics.Debug@4.0.11",
+        "System.Diagnostics.Tools@4.0.1",
+        "System.Globalization@4.0.11",
+        "System.IO@4.1.0",
+        "System.IO.FileSystem@4.0.1",
+        "System.Reflection@4.1.0",
+        "System.Reflection.Extensions@4.0.1",
+        "System.Reflection.Primitives@4.0.1",
+        "System.Resources.ResourceManager@4.0.1",
+        "System.Runtime@4.1.0",
+        "System.Runtime.Extensions@4.1.0",
+        "System.Runtime.Handles@4.0.1",
+        "System.Runtime.InteropServices@4.1.0",
+        "System.Text.Encoding@4.0.11",
+        "System.Text.Encoding.Extensions@4.0.11",
+        "System.Threading.Tasks@4.0.11"
+      ]
+    },
     "Microsoft.OpenApi@1.6.22": {
       "packageName": "Microsoft.OpenApi",
       "version": "1.6.22",
@@ -115,9 +168,9 @@
         "Swashbuckle.AspNetCore.Swagger@7.2.0"
       ]
     },
-    "Newtonsoft.Json@13.0.1": {
+    "Newtonsoft.Json@9.0.1": {
       "packageName": "Newtonsoft.Json",
-      "version": "13.0.1",
+      "version": "9.0.1",
       "directDependents": []
     },
     "ShapeCrawler@0.78.2": {
@@ -180,11 +233,41 @@
         "Swashbuckle.AspNetCore@7.2.0"
       ]
     },
+    "System.Collections@4.0.11": {
+      "packageName": "System.Collections",
+      "version": "4.0.11",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq@4.1.0",
+        "System.Linq.Expressions@4.1.0",
+        "System.ObjectModel@4.0.12",
+        "System.Text.RegularExpressions@4.1.0",
+        "System.Threading.Tasks.Extensions@4.0.0",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
     "System.Collections.Immutable@10.0.2": {
       "packageName": "System.Collections.Immutable",
       "version": "10.0.2",
       "directDependents": [
         "System.Reflection.Metadata@10.0.2"
+      ]
+    },
+    "System.Diagnostics.Debug@4.0.11": {
+      "packageName": "System.Diagnostics.Debug",
+      "version": "4.0.11",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq@4.1.0",
+        "System.Linq.Expressions@4.1.0",
+        "System.ObjectModel@4.0.12",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
       ]
     },
     "System.Diagnostics.DiagnosticSource@10.0.1": {
@@ -194,11 +277,68 @@
         "Microsoft.Extensions.Logging.Abstractions@10.0.1"
       ]
     },
+    "System.Diagnostics.Tools@4.0.1": {
+      "packageName": "System.Diagnostics.Tools",
+      "version": "4.0.1",
+      "directDependents": [
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Dynamic.Runtime@4.0.11": {
+      "packageName": "System.Dynamic.Runtime",
+      "version": "4.0.11",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1"
+      ]
+    },
     "System.Formats.Nrbf@10.0.2": {
       "packageName": "System.Formats.Nrbf",
       "version": "10.0.2",
       "directDependents": [
         "System.Resources.Extensions@10.0.2"
+      ]
+    },
+    "System.Globalization@4.0.11": {
+      "packageName": "System.Globalization",
+      "version": "4.0.11",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0",
+        "System.Resources.ResourceManager@4.0.1",
+        "System.Text.RegularExpressions@4.1.0",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.IO@4.1.0": {
+      "packageName": "System.IO",
+      "version": "4.1.0",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1",
+        "System.IO.FileSystem@4.0.1",
+        "System.Linq.Expressions@4.1.0",
+        "System.Reflection@4.1.0",
+        "System.Reflection.Emit@4.0.1",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.IO.FileSystem@4.0.1": {
+      "packageName": "System.IO.FileSystem",
+      "version": "4.0.1",
+      "directDependents": [
+        "System.Xml.ReaderWriter@4.0.11"
+      ]
+    },
+    "System.IO.FileSystem.Primitives@4.0.1": {
+      "packageName": "System.IO.FileSystem.Primitives",
+      "version": "4.0.1",
+      "directDependents": [
+        "System.IO.FileSystem@4.0.1",
+        "System.Xml.ReaderWriter@4.0.11"
       ]
     },
     "System.IO.Packaging@8.0.1": {
@@ -208,6 +348,87 @@
         "DocumentFormat.OpenXml.Framework@3.4.1"
       ]
     },
+    "System.Linq@4.1.0": {
+      "packageName": "System.Linq",
+      "version": "4.1.0",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0"
+      ]
+    },
+    "System.Linq.Expressions@4.1.0": {
+      "packageName": "System.Linq.Expressions",
+      "version": "4.1.0",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11"
+      ]
+    },
+    "System.ObjectModel@4.0.12": {
+      "packageName": "System.ObjectModel",
+      "version": "4.0.12",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0"
+      ]
+    },
+    "System.Reflection@4.1.0": {
+      "packageName": "System.Reflection",
+      "version": "4.1.0",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0",
+        "System.Reflection.Emit@4.0.1",
+        "System.Reflection.Emit.ILGeneration@4.0.1",
+        "System.Reflection.Emit.Lightweight@4.0.1",
+        "System.Reflection.Extensions@4.0.1",
+        "System.Reflection.TypeExtensions@4.1.0",
+        "System.Resources.ResourceManager@4.0.1",
+        "System.Runtime.InteropServices@4.1.0",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Reflection.Emit@4.0.1": {
+      "packageName": "System.Reflection.Emit",
+      "version": "4.0.1",
+      "directDependents": [
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0"
+      ]
+    },
+    "System.Reflection.Emit.ILGeneration@4.0.1": {
+      "packageName": "System.Reflection.Emit.ILGeneration",
+      "version": "4.0.1",
+      "directDependents": [
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0",
+        "System.Reflection.Emit@4.0.1",
+        "System.Reflection.Emit.Lightweight@4.0.1"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight@4.0.1": {
+      "packageName": "System.Reflection.Emit.Lightweight",
+      "version": "4.0.1",
+      "directDependents": [
+        "System.Linq.Expressions@4.1.0"
+      ]
+    },
+    "System.Reflection.Extensions@4.0.1": {
+      "packageName": "System.Reflection.Extensions",
+      "version": "4.0.1",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Linq.Expressions@4.1.0"
+      ]
+    },
     "System.Reflection.Metadata@10.0.2": {
       "packageName": "System.Reflection.Metadata",
       "version": "10.0.2",
@@ -215,11 +436,201 @@
         "System.Formats.Nrbf@10.0.2"
       ]
     },
+    "System.Reflection.Primitives@4.0.1": {
+      "packageName": "System.Reflection.Primitives",
+      "version": "4.0.1",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0",
+        "System.Reflection@4.1.0",
+        "System.Reflection.Emit@4.0.1",
+        "System.Reflection.Emit.ILGeneration@4.0.1",
+        "System.Reflection.Emit.Lightweight@4.0.1",
+        "System.Runtime.InteropServices@4.1.0"
+      ]
+    },
+    "System.Reflection.TypeExtensions@4.1.0": {
+      "packageName": "System.Reflection.TypeExtensions",
+      "version": "4.1.0",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0"
+      ]
+    },
     "System.Resources.Extensions@10.0.2": {
       "packageName": "System.Resources.Extensions",
       "version": "10.0.2",
       "directDependents": [
         "ShapeCrawler@0.78.2"
+      ]
+    },
+    "System.Resources.ResourceManager@4.0.1": {
+      "packageName": "System.Resources.ResourceManager",
+      "version": "4.0.1",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq@4.1.0",
+        "System.Linq.Expressions@4.1.0",
+        "System.ObjectModel@4.0.12",
+        "System.Runtime.Serialization.Primitives@4.1.1",
+        "System.Text.RegularExpressions@4.1.0",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Runtime@4.1.0": {
+      "packageName": "System.Runtime",
+      "version": "4.1.0",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Collections@4.0.11",
+        "System.Diagnostics.Debug@4.0.11",
+        "System.Diagnostics.Tools@4.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Globalization@4.0.11",
+        "System.IO@4.1.0",
+        "System.IO.FileSystem@4.0.1",
+        "System.IO.FileSystem.Primitives@4.0.1",
+        "System.Linq@4.1.0",
+        "System.Linq.Expressions@4.1.0",
+        "System.ObjectModel@4.0.12",
+        "System.Reflection@4.1.0",
+        "System.Reflection.Emit@4.0.1",
+        "System.Reflection.Emit.ILGeneration@4.0.1",
+        "System.Reflection.Emit.Lightweight@4.0.1",
+        "System.Reflection.Extensions@4.0.1",
+        "System.Reflection.Primitives@4.0.1",
+        "System.Reflection.TypeExtensions@4.1.0",
+        "System.Resources.ResourceManager@4.0.1",
+        "System.Runtime.Extensions@4.1.0",
+        "System.Runtime.Handles@4.0.1",
+        "System.Runtime.InteropServices@4.1.0",
+        "System.Runtime.Serialization.Primitives@4.1.1",
+        "System.Text.Encoding@4.0.11",
+        "System.Text.Encoding.Extensions@4.0.11",
+        "System.Text.RegularExpressions@4.1.0",
+        "System.Threading@4.0.11",
+        "System.Threading.Tasks@4.0.11",
+        "System.Threading.Tasks.Extensions@4.0.0",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Runtime.Extensions@4.1.0": {
+      "packageName": "System.Runtime.Extensions",
+      "version": "4.1.0",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq@4.1.0",
+        "System.Linq.Expressions@4.1.0",
+        "System.Text.RegularExpressions@4.1.0",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Runtime.Handles@4.0.1": {
+      "packageName": "System.Runtime.Handles",
+      "version": "4.0.1",
+      "directDependents": [
+        "System.IO.FileSystem@4.0.1",
+        "System.Runtime.InteropServices@4.1.0"
+      ]
+    },
+    "System.Runtime.InteropServices@4.1.0": {
+      "packageName": "System.Runtime.InteropServices",
+      "version": "4.1.0",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "System.Xml.ReaderWriter@4.0.11"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives@4.1.1": {
+      "packageName": "System.Runtime.Serialization.Primitives",
+      "version": "4.1.1",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1"
+      ]
+    },
+    "System.Text.Encoding@4.0.11": {
+      "packageName": "System.Text.Encoding",
+      "version": "4.0.11",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1",
+        "System.IO@4.1.0",
+        "System.IO.FileSystem@4.0.1",
+        "System.Text.Encoding.Extensions@4.0.11",
+        "System.Xml.ReaderWriter@4.0.11",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Text.Encoding.Extensions@4.0.11": {
+      "packageName": "System.Text.Encoding.Extensions",
+      "version": "4.0.11",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1",
+        "System.Xml.ReaderWriter@4.0.11"
+      ]
+    },
+    "System.Text.RegularExpressions@4.1.0": {
+      "packageName": "System.Text.RegularExpressions",
+      "version": "4.1.0",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1",
+        "System.Xml.ReaderWriter@4.0.11"
+      ]
+    },
+    "System.Threading@4.0.11": {
+      "packageName": "System.Threading",
+      "version": "4.0.11",
+      "directDependents": [
+        "Microsoft.CSharp@4.0.1",
+        "Newtonsoft.Json@9.0.1",
+        "System.Dynamic.Runtime@4.0.11",
+        "System.Linq.Expressions@4.1.0",
+        "System.ObjectModel@4.0.12",
+        "System.Text.RegularExpressions@4.1.0",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Threading.Tasks@4.0.11": {
+      "packageName": "System.Threading.Tasks",
+      "version": "4.0.11",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1",
+        "System.IO@4.1.0",
+        "System.IO.FileSystem@4.0.1",
+        "System.Threading@4.0.11",
+        "System.Threading.Tasks.Extensions@4.0.0",
+        "System.Xml.ReaderWriter@4.0.11"
+      ]
+    },
+    "System.Threading.Tasks.Extensions@4.0.0": {
+      "packageName": "System.Threading.Tasks.Extensions",
+      "version": "4.0.0",
+      "directDependents": [
+        "System.Xml.ReaderWriter@4.0.11"
+      ]
+    },
+    "System.Xml.ReaderWriter@4.0.11": {
+      "packageName": "System.Xml.ReaderWriter",
+      "version": "4.0.11",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1",
+        "System.Xml.XDocument@4.0.11"
+      ]
+    },
+    "System.Xml.XDocument@4.0.11": {
+      "packageName": "System.Xml.XDocument",
+      "version": "4.0.11",
+      "directDependents": [
+        "Newtonsoft.Json@9.0.1"
       ]
     },
     "ZiggyCreatures.FusionCache@2.5.0": {
@@ -251,6 +662,24 @@
     "Microsoft.AspNetCore.OpenApi@9.0.12": [
       "Microsoft.OpenApi@1.6.22"
     ],
+    "Microsoft.CSharp@4.0.1": [
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Dynamic.Runtime@4.0.11",
+      "System.Globalization@4.0.11",
+      "System.Linq@4.1.0",
+      "System.Linq.Expressions@4.1.0",
+      "System.ObjectModel@4.0.12",
+      "System.Reflection@4.1.0",
+      "System.Reflection.Extensions@4.0.1",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Reflection.TypeExtensions@4.1.0",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0",
+      "System.Runtime.InteropServices@4.1.0",
+      "System.Threading@4.0.11"
+    ],
     "Microsoft.Extensions.ApiDescription.Server@6.0.5": [],
     "Microsoft.Extensions.Caching.Abstractions@10.0.1": [
       "Microsoft.Extensions.Primitives@10.0.1"
@@ -272,8 +701,33 @@
       "Microsoft.Extensions.Primitives@10.0.1"
     ],
     "Microsoft.Extensions.Primitives@10.0.1": [],
+    "Microsoft.NETCore.Platforms@1.0.1": [],
+    "Microsoft.NETCore.Targets@1.0.1": [],
     "Microsoft.OpenApi@1.6.22": [],
-    "Newtonsoft.Json@13.0.1": [],
+    "Newtonsoft.Json@9.0.1": [
+      "Microsoft.CSharp@4.0.1",
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Dynamic.Runtime@4.0.11",
+      "System.Globalization@4.0.11",
+      "System.IO@4.1.0",
+      "System.Linq@4.1.0",
+      "System.Linq.Expressions@4.1.0",
+      "System.ObjectModel@4.0.12",
+      "System.Reflection@4.1.0",
+      "System.Reflection.Extensions@4.0.1",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0",
+      "System.Runtime.Serialization.Primitives@4.1.1",
+      "System.Text.Encoding@4.0.11",
+      "System.Text.Encoding.Extensions@4.0.11",
+      "System.Text.RegularExpressions@4.1.0",
+      "System.Threading@4.0.11",
+      "System.Threading.Tasks@4.0.11",
+      "System.Xml.ReaderWriter@4.0.11",
+      "System.Xml.XDocument@4.0.11"
+    ],
     "ShapeCrawler@0.78.2": [
       "DocumentFormat.OpenXml@3.4.1",
       "DocumentFormat.OpenXml.Linq@3.4.1",
@@ -302,17 +756,244 @@
       "Swashbuckle.AspNetCore.Swagger@7.2.0"
     ],
     "Swashbuckle.AspNetCore.SwaggerUI@7.2.0": [],
+    "System.Collections@4.0.11": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
     "System.Collections.Immutable@10.0.2": [],
+    "System.Diagnostics.Debug@4.0.11": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
     "System.Diagnostics.DiagnosticSource@10.0.1": [],
+    "System.Diagnostics.Tools@4.0.1": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Dynamic.Runtime@4.0.11": [
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Globalization@4.0.11",
+      "System.Linq@4.1.0",
+      "System.Linq.Expressions@4.1.0",
+      "System.ObjectModel@4.0.12",
+      "System.Reflection@4.1.0",
+      "System.Reflection.Emit@4.0.1",
+      "System.Reflection.Emit.ILGeneration@4.0.1",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Reflection.TypeExtensions@4.1.0",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0",
+      "System.Threading@4.0.11"
+    ],
     "System.Formats.Nrbf@10.0.2": [
       "System.Reflection.Metadata@10.0.2"
     ],
+    "System.Globalization@4.0.11": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.IO@4.1.0": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0",
+      "System.Text.Encoding@4.0.11",
+      "System.Threading.Tasks@4.0.11"
+    ],
+    "System.IO.FileSystem@4.0.1": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.IO@4.1.0",
+      "System.IO.FileSystem.Primitives@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Handles@4.0.1",
+      "System.Text.Encoding@4.0.11",
+      "System.Threading.Tasks@4.0.11"
+    ],
+    "System.IO.FileSystem.Primitives@4.0.1": [
+      "System.Runtime@4.1.0"
+    ],
     "System.IO.Packaging@8.0.1": [],
+    "System.Linq@4.1.0": [
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0"
+    ],
+    "System.Linq.Expressions@4.1.0": [
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Globalization@4.0.11",
+      "System.IO@4.1.0",
+      "System.Linq@4.1.0",
+      "System.ObjectModel@4.0.12",
+      "System.Reflection@4.1.0",
+      "System.Reflection.Emit@4.0.1",
+      "System.Reflection.Emit.ILGeneration@4.0.1",
+      "System.Reflection.Emit.Lightweight@4.0.1",
+      "System.Reflection.Extensions@4.0.1",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Reflection.TypeExtensions@4.1.0",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0",
+      "System.Threading@4.0.11"
+    ],
+    "System.ObjectModel@4.0.12": [
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Threading@4.0.11"
+    ],
+    "System.Reflection@4.1.0": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.IO@4.1.0",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Reflection.Emit@4.0.1": [
+      "System.IO@4.1.0",
+      "System.Reflection@4.1.0",
+      "System.Reflection.Emit.ILGeneration@4.0.1",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Reflection.Emit.ILGeneration@4.0.1": [
+      "System.Reflection@4.1.0",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Reflection.Emit.Lightweight@4.0.1": [
+      "System.Reflection@4.1.0",
+      "System.Reflection.Emit.ILGeneration@4.0.1",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Reflection.Extensions@4.0.1": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Reflection@4.1.0",
+      "System.Runtime@4.1.0"
+    ],
     "System.Reflection.Metadata@10.0.2": [
       "System.Collections.Immutable@10.0.2"
     ],
+    "System.Reflection.Primitives@4.0.1": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Reflection.TypeExtensions@4.1.0": [
+      "System.Reflection@4.1.0",
+      "System.Runtime@4.1.0"
+    ],
     "System.Resources.Extensions@10.0.2": [
       "System.Formats.Nrbf@10.0.2"
+    ],
+    "System.Resources.ResourceManager@4.0.1": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Globalization@4.0.11",
+      "System.Reflection@4.1.0",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Runtime@4.1.0": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1"
+    ],
+    "System.Runtime.Extensions@4.1.0": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Runtime.Handles@4.0.1": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Runtime.InteropServices@4.1.0": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Reflection@4.1.0",
+      "System.Reflection.Primitives@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Handles@4.0.1"
+    ],
+    "System.Runtime.Serialization.Primitives@4.1.1": [
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Text.Encoding@4.0.11": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Text.Encoding.Extensions@4.0.11": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0",
+      "System.Text.Encoding@4.0.11"
+    ],
+    "System.Text.RegularExpressions@4.1.0": [
+      "System.Collections@4.0.11",
+      "System.Globalization@4.0.11",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0",
+      "System.Threading@4.0.11"
+    ],
+    "System.Threading@4.0.11": [
+      "System.Runtime@4.1.0",
+      "System.Threading.Tasks@4.0.11"
+    ],
+    "System.Threading.Tasks@4.0.11": [
+      "Microsoft.NETCore.Platforms@1.0.1",
+      "Microsoft.NETCore.Targets@1.0.1",
+      "System.Runtime@4.1.0"
+    ],
+    "System.Threading.Tasks.Extensions@4.0.0": [
+      "System.Collections@4.0.11",
+      "System.Runtime@4.1.0",
+      "System.Threading.Tasks@4.0.11"
+    ],
+    "System.Xml.ReaderWriter@4.0.11": [
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Globalization@4.0.11",
+      "System.IO@4.1.0",
+      "System.IO.FileSystem@4.0.1",
+      "System.IO.FileSystem.Primitives@4.0.1",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0",
+      "System.Runtime.InteropServices@4.1.0",
+      "System.Text.Encoding@4.0.11",
+      "System.Text.Encoding.Extensions@4.0.11",
+      "System.Text.RegularExpressions@4.1.0",
+      "System.Threading.Tasks@4.0.11",
+      "System.Threading.Tasks.Extensions@4.0.0"
+    ],
+    "System.Xml.XDocument@4.0.11": [
+      "System.Collections@4.0.11",
+      "System.Diagnostics.Debug@4.0.11",
+      "System.Diagnostics.Tools@4.0.1",
+      "System.Globalization@4.0.11",
+      "System.IO@4.1.0",
+      "System.Reflection@4.1.0",
+      "System.Resources.ResourceManager@4.0.1",
+      "System.Runtime@4.1.0",
+      "System.Runtime.Extensions@4.1.0",
+      "System.Text.Encoding@4.0.11",
+      "System.Threading@4.0.11",
+      "System.Xml.ReaderWriter@4.0.11"
     ],
     "ZiggyCreatures.FusionCache@2.5.0": [
       "Microsoft.Extensions.Caching.Memory@10.0.1"
@@ -324,232 +1005,477 @@
       "version": "3.4.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.27232Z"
+      "cachedAt": "2026-02-19T03:33:21.102138Z"
     },
     "DocumentFormat.OpenXml.Framework@3.4.1": {
       "packageName": "DocumentFormat.OpenXml.Framework",
       "version": "3.4.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272344Z"
+      "cachedAt": "2026-02-19T03:33:21.102174Z"
     },
     "DocumentFormat.OpenXml.Linq@3.4.1": {
       "packageName": "DocumentFormat.OpenXml.Linq",
       "version": "3.4.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272345Z"
+      "cachedAt": "2026-02-19T03:33:21.102175Z"
     },
     "FluentEmail.Core@3.0.2": {
       "packageName": "FluentEmail.Core",
       "version": "3.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272346Z"
+      "cachedAt": "2026-02-19T03:33:21.102177Z"
     },
     "FluentEmail.Smtp@3.0.2": {
       "packageName": "FluentEmail.Smtp",
       "version": "3.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272346Z"
+      "cachedAt": "2026-02-19T03:33:21.102177Z"
     },
     "Magick.NET-Q16-AnyCPU@14.10.2": {
       "packageName": "Magick.NET-Q16-AnyCPU",
       "version": "14.10.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272346Z"
+      "cachedAt": "2026-02-19T03:33:21.102178Z"
     },
     "Magick.NET.Core@14.10.2": {
       "packageName": "Magick.NET.Core",
       "version": "14.10.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272348Z"
+      "cachedAt": "2026-02-19T03:33:21.102179Z"
     },
     "Microsoft.AspNetCore.OpenApi@9.0.12": {
       "packageName": "Microsoft.AspNetCore.OpenApi",
       "version": "9.0.12",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272349Z"
+      "cachedAt": "2026-02-19T03:33:21.10218Z"
+    },
+    "Microsoft.CSharp@4.0.1": {
+      "packageName": "Microsoft.CSharp",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.10218Z"
     },
     "Microsoft.Extensions.ApiDescription.Server@6.0.5": {
       "packageName": "Microsoft.Extensions.ApiDescription.Server",
       "version": "6.0.5",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272349Z"
+      "cachedAt": "2026-02-19T03:33:21.102181Z"
     },
     "Microsoft.Extensions.Caching.Abstractions@10.0.1": {
       "packageName": "Microsoft.Extensions.Caching.Abstractions",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272349Z"
+      "cachedAt": "2026-02-19T03:33:21.102181Z"
     },
     "Microsoft.Extensions.Caching.Memory@10.0.1": {
       "packageName": "Microsoft.Extensions.Caching.Memory",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.27235Z"
+      "cachedAt": "2026-02-19T03:33:21.102187Z"
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions@10.0.1": {
       "packageName": "Microsoft.Extensions.DependencyInjection.Abstractions",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.27235Z"
+      "cachedAt": "2026-02-19T03:33:21.102188Z"
     },
     "Microsoft.Extensions.Logging.Abstractions@10.0.1": {
       "packageName": "Microsoft.Extensions.Logging.Abstractions",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.27235Z"
+      "cachedAt": "2026-02-19T03:33:21.102189Z"
     },
     "Microsoft.Extensions.Options@10.0.1": {
       "packageName": "Microsoft.Extensions.Options",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272351Z"
+      "cachedAt": "2026-02-19T03:33:21.102189Z"
     },
     "Microsoft.Extensions.Primitives@10.0.1": {
       "packageName": "Microsoft.Extensions.Primitives",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272351Z"
+      "cachedAt": "2026-02-19T03:33:21.10219Z"
+    },
+    "Microsoft.NETCore.Platforms@1.0.1": {
+      "packageName": "Microsoft.NETCore.Platforms",
+      "version": "1.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.10219Z"
+    },
+    "Microsoft.NETCore.Targets@1.0.1": {
+      "packageName": "Microsoft.NETCore.Targets",
+      "version": "1.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102191Z"
     },
     "Microsoft.OpenApi@1.6.22": {
       "packageName": "Microsoft.OpenApi",
       "version": "1.6.22",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272351Z"
+      "cachedAt": "2026-02-19T03:33:21.102192Z"
     },
-    "Newtonsoft.Json@13.0.1": {
+    "Newtonsoft.Json@9.0.1": {
       "packageName": "Newtonsoft.Json",
-      "version": "13.0.1",
+      "version": "9.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272351Z"
+      "cachedAt": "2026-02-19T03:33:21.102192Z"
     },
     "ShapeCrawler@0.78.2": {
       "packageName": "ShapeCrawler",
       "version": "0.78.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272352Z"
+      "cachedAt": "2026-02-19T03:33:21.102193Z"
     },
     "SkiaSharp@3.119.1": {
       "packageName": "SkiaSharp",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272352Z"
+      "cachedAt": "2026-02-19T03:33:21.102193Z"
     },
     "SkiaSharp.NativeAssets.Linux@3.119.1": {
       "packageName": "SkiaSharp.NativeAssets.Linux",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272353Z"
+      "cachedAt": "2026-02-19T03:33:21.102194Z"
     },
     "SkiaSharp.NativeAssets.macOS@3.119.1": {
       "packageName": "SkiaSharp.NativeAssets.macOS",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272353Z"
+      "cachedAt": "2026-02-19T03:33:21.102194Z"
     },
     "SkiaSharp.NativeAssets.Win32@3.119.1": {
       "packageName": "SkiaSharp.NativeAssets.Win32",
       "version": "3.119.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272353Z"
+      "cachedAt": "2026-02-19T03:33:21.102195Z"
     },
     "Swashbuckle.AspNetCore@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272353Z"
+      "cachedAt": "2026-02-19T03:33:21.102195Z"
     },
     "Swashbuckle.AspNetCore.Swagger@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore.Swagger",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272353Z"
+      "cachedAt": "2026-02-19T03:33:21.102196Z"
     },
     "Swashbuckle.AspNetCore.SwaggerGen@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore.SwaggerGen",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272354Z"
+      "cachedAt": "2026-02-19T03:33:21.102197Z"
     },
     "Swashbuckle.AspNetCore.SwaggerUI@7.2.0": {
       "packageName": "Swashbuckle.AspNetCore.SwaggerUI",
       "version": "7.2.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272354Z"
+      "cachedAt": "2026-02-19T03:33:21.102197Z"
+    },
+    "System.Collections@4.0.11": {
+      "packageName": "System.Collections",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102198Z"
     },
     "System.Collections.Immutable@10.0.2": {
       "packageName": "System.Collections.Immutable",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272354Z"
+      "cachedAt": "2026-02-19T03:33:21.102198Z"
+    },
+    "System.Diagnostics.Debug@4.0.11": {
+      "packageName": "System.Diagnostics.Debug",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102199Z"
     },
     "System.Diagnostics.DiagnosticSource@10.0.1": {
       "packageName": "System.Diagnostics.DiagnosticSource",
       "version": "10.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272354Z"
+      "cachedAt": "2026-02-19T03:33:21.102199Z"
+    },
+    "System.Diagnostics.Tools@4.0.1": {
+      "packageName": "System.Diagnostics.Tools",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.1022Z"
+    },
+    "System.Dynamic.Runtime@4.0.11": {
+      "packageName": "System.Dynamic.Runtime",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.1022Z"
     },
     "System.Formats.Nrbf@10.0.2": {
       "packageName": "System.Formats.Nrbf",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272355Z"
+      "cachedAt": "2026-02-19T03:33:21.102201Z"
+    },
+    "System.Globalization@4.0.11": {
+      "packageName": "System.Globalization",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102201Z"
+    },
+    "System.IO@4.1.0": {
+      "packageName": "System.IO",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102204Z"
+    },
+    "System.IO.FileSystem@4.0.1": {
+      "packageName": "System.IO.FileSystem",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102204Z"
+    },
+    "System.IO.FileSystem.Primitives@4.0.1": {
+      "packageName": "System.IO.FileSystem.Primitives",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102205Z"
     },
     "System.IO.Packaging@8.0.1": {
       "packageName": "System.IO.Packaging",
       "version": "8.0.1",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272355Z"
+      "cachedAt": "2026-02-19T03:33:21.102205Z"
+    },
+    "System.Linq@4.1.0": {
+      "packageName": "System.Linq",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102206Z"
+    },
+    "System.Linq.Expressions@4.1.0": {
+      "packageName": "System.Linq.Expressions",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102206Z"
+    },
+    "System.ObjectModel@4.0.12": {
+      "packageName": "System.ObjectModel",
+      "version": "4.0.12",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102207Z"
+    },
+    "System.Reflection@4.1.0": {
+      "packageName": "System.Reflection",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102207Z"
+    },
+    "System.Reflection.Emit@4.0.1": {
+      "packageName": "System.Reflection.Emit",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102208Z"
+    },
+    "System.Reflection.Emit.ILGeneration@4.0.1": {
+      "packageName": "System.Reflection.Emit.ILGeneration",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102209Z"
+    },
+    "System.Reflection.Emit.Lightweight@4.0.1": {
+      "packageName": "System.Reflection.Emit.Lightweight",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102209Z"
+    },
+    "System.Reflection.Extensions@4.0.1": {
+      "packageName": "System.Reflection.Extensions",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.10221Z"
     },
     "System.Reflection.Metadata@10.0.2": {
       "packageName": "System.Reflection.Metadata",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272355Z"
+      "cachedAt": "2026-02-19T03:33:21.10221Z"
+    },
+    "System.Reflection.Primitives@4.0.1": {
+      "packageName": "System.Reflection.Primitives",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102211Z"
+    },
+    "System.Reflection.TypeExtensions@4.1.0": {
+      "packageName": "System.Reflection.TypeExtensions",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102211Z"
     },
     "System.Resources.Extensions@10.0.2": {
       "packageName": "System.Resources.Extensions",
       "version": "10.0.2",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272355Z"
+      "cachedAt": "2026-02-19T03:33:21.102212Z"
+    },
+    "System.Resources.ResourceManager@4.0.1": {
+      "packageName": "System.Resources.ResourceManager",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102213Z"
+    },
+    "System.Runtime@4.1.0": {
+      "packageName": "System.Runtime",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102213Z"
+    },
+    "System.Runtime.Extensions@4.1.0": {
+      "packageName": "System.Runtime.Extensions",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102213Z"
+    },
+    "System.Runtime.Handles@4.0.1": {
+      "packageName": "System.Runtime.Handles",
+      "version": "4.0.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102214Z"
+    },
+    "System.Runtime.InteropServices@4.1.0": {
+      "packageName": "System.Runtime.InteropServices",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102214Z"
+    },
+    "System.Runtime.Serialization.Primitives@4.1.1": {
+      "packageName": "System.Runtime.Serialization.Primitives",
+      "version": "4.1.1",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102215Z"
+    },
+    "System.Text.Encoding@4.0.11": {
+      "packageName": "System.Text.Encoding",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102215Z"
+    },
+    "System.Text.Encoding.Extensions@4.0.11": {
+      "packageName": "System.Text.Encoding.Extensions",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102216Z"
+    },
+    "System.Text.RegularExpressions@4.1.0": {
+      "packageName": "System.Text.RegularExpressions",
+      "version": "4.1.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102216Z"
+    },
+    "System.Threading@4.0.11": {
+      "packageName": "System.Threading",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102217Z"
+    },
+    "System.Threading.Tasks@4.0.11": {
+      "packageName": "System.Threading.Tasks",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102218Z"
+    },
+    "System.Threading.Tasks.Extensions@4.0.0": {
+      "packageName": "System.Threading.Tasks.Extensions",
+      "version": "4.0.0",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102218Z"
+    },
+    "System.Xml.ReaderWriter@4.0.11": {
+      "packageName": "System.Xml.ReaderWriter",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102219Z"
+    },
+    "System.Xml.XDocument@4.0.11": {
+      "packageName": "System.Xml.XDocument",
+      "version": "4.0.11",
+      "nugetMetadata": null,
+      "breakingChanges": null,
+      "cachedAt": "2026-02-19T03:33:21.102219Z"
     },
     "ZiggyCreatures.FusionCache@2.5.0": {
       "packageName": "ZiggyCreatures.FusionCache",
       "version": "2.5.0",
       "nugetMetadata": null,
       "breakingChanges": null,
-      "cachedAt": "2026-02-19T03:07:51.272355Z"
+      "cachedAt": "2026-02-19T03:33:21.102219Z"
     }
   },
-  "generatedAt": "2026-02-19T03:07:51.2721040Z"
+  "generatedAt": "2026-02-19T03:33:21.1018030Z"
 }
